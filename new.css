@@ -78,18 +78,161 @@
   width: 100px;
   -webkit-clip-path: circle();
           clip-path: circle();
+  -webkit-transition: 1s ease;
+  transition: 1s ease;
+  margin-bottom: 1rem;
 }
 
 * body main .row .card1 .content {
-  padding-top: 4rem;
+  padding: 2rem 0;
   text-transform: uppercase;
 }
 
 * body main .row .card1 .content h2 {
+  padding: 1rem 0;
   font-size: 1.725rem;
 }
 
 * body main .row .card1 .content p {
   font-size: 1.125rem;
+}
+
+* body main .row .card1:hover .circle-img {
+  background-color: #e4b2d6;
+}
+
+* body main #grid {
+  padding: 6rem 0;
+}
+
+* body main #grid .container-fluid {
+  height: 100%;
+  width: 80%;
+}
+
+* body main #grid .container-fluid .row .col-lg-8.main-left .col-lg-6.left .img-container1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  max-width: 100%;
+  background-image: url(./top-left.webp);
+  background-position: center center;
+  background-size: cover;
+  height: 250px;
+}
+
+* body main #grid .container-fluid .row .col-lg-8.main-left .col-lg-6.left .img-container1 p {
+  color: white;
+  font-size: 1rem;
+  margin: 0;
+  padding: .125rem .725rem;
+  background-color: #82ae46;
+}
+
+* body main #grid .container-fluid .row .col-lg-8.main-left .col-lg-6.left .img-container2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  max-width: 100%;
+  background-image: url(./bot-left.webp);
+  background-position: center center;
+  background-size: cover;
+  height: 250px;
+}
+
+* body main #grid .container-fluid .row .col-lg-8.main-left .col-lg-6.left .img-container2 p {
+  color: white;
+  font-size: 1rem;
+  margin: 0;
+  padding: .125rem .725rem;
+  background-color: #82ae46;
+}
+
+* body main #grid .container-fluid .row .col-lg-8.main-left .col-lg-6.right {
+  -ms-flex-item-align: stretch;
+      -ms-grid-row-align: stretch;
+      align-self: stretch;
+}
+
+* body main #grid .container-fluid .row .col-lg-8.main-left .col-lg-6.right .bg-image-wrapper {
+  height: 100%;
+  width: 100%;
+  background-image: url(./middle.webp);
+  background-position: center center;
+  background-size: cover;
+}
+
+* body main #grid .container-fluid .row .col-lg-8.main-left .col-lg-6.right .bg-image-wrapper .text-wrapper {
+  text-align: center;
+}
+
+* body main #grid .container-fluid .row .col-lg-8.main-left .col-lg-6.right .bg-image-wrapper .text-wrapper h2 {
+  color: #82ae46;
+  font-weight: 600;
+}
+
+* body main #grid .container-fluid .row .col-lg-8.main-left .col-lg-6.right .bg-image-wrapper .text-wrapper p {
+  font-size: 1.125rem;
+  padding: .725rem 0;
+}
+
+* body main #grid .container-fluid .row .col-lg-8.main-left .col-lg-6.right .bg-image-wrapper .text-wrapper p.p1 {
+  padding: .325rem .725rem;
+  display: inline-block;
+  background-color: #82ae46;
+  border: 1px solid #82ae46;
+  color: white;
+  border-radius: 5rem;
+  cursor: pointer;
+}
+
+* body main #grid .container-fluid .row .col-lg-4.main-right .img-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  max-width: 100%;
+  background-image: url(./greenjuice.webp);
+  background-position: center;
+  background-size: cover;
+  height: 250px;
+}
+
+* body main #grid .container-fluid .row .col-lg-4.main-right .img-container p {
+  color: white;
+  font-size: 1rem;
+  margin: 0;
+  padding: .125rem .725rem;
+  background-color: #82ae46;
+}
+
+* body main #grid .container-fluid .row .col-lg-4.main-right .img-container3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  max-width: 100%;
+  background-image: url(./bot-right.webp);
+  background-position: center;
+  background-size: cover;
+  height: 250px;
+}
+
+* body main #grid .container-fluid .row .col-lg-4.main-right .img-container3 p {
+  color: white;
+  font-size: 1rem;
+  margin: 0;
+  padding: .125rem .725rem;
+  background-color: #82ae46;
 }
 /*# sourceMappingURL=new.css.map */

@@ -58,15 +58,13 @@
                     }
                 }
             }
-           .row{
+            .row{
                align-items: flex-end;
 
                 .card1{
-                
                     position: relative;
                     height: 240px;
                     width: auto;
-    
                     .circle-img{
                         position: relative;
                         top: 15%;
@@ -74,20 +72,154 @@
                         height: 100px;
                         width: 100px;
                         clip-path: circle();
-                        
+                        transition: 1s ease;
+                        margin-bottom: 1rem;
                     }   
                     .content{
-                        padding-top: 4rem;
+                        padding: 2rem 0;
                         text-transform: uppercase;
 
                         h2{
+                            padding: 1rem 0;
                            font-size: 1.725rem;
                         }
                         p{
                             font-size: 1.125rem;
                         }
                     }
+
+                    &:hover{
+                        .circle-img{
+                           background-color:  #e4b2d6;
+                        }
+                    }
                 }
+           }
+
+           #grid{
+               padding: 6rem 0;
+               .container-fluid{
+                    height: 100%;
+                    width: 80%;
+                    .row{
+                
+                    
+                        .col-lg-8.main-left{
+                            
+                            
+                            .col-lg-6.left{
+                                .img-container1{
+                                    display: flex;
+                                    align-items: flex-end;
+                                    max-width: 100%;
+                                    background-image: url(./top-left.webp);
+                                    background-position: center center;
+                                    background-size: cover;
+                                    height: 250px;
+            
+                                    p{
+                                        color: white;
+                                        font-size: 1rem;
+                                        margin: 0;
+                                        padding: .125rem .725rem;
+                                        
+                                        background-color: #82ae46;
+                                    }
+                                }
+                                .img-container2{
+                                    display: flex;
+                                    align-items: flex-end;
+                                    max-width: 100%;
+                                    background-image: url(./bot-left.webp);
+                                    background-position: center center;
+                                    background-size: cover;
+                                    height: 250px;
+            
+                                    p{
+                                        color: white;
+                                        font-size: 1rem;
+                                        margin: 0;
+                                        padding: .125rem .725rem;
+                                        
+                                        background-color: #82ae46;
+                                    }
+                                }
+                            }
+                            .col-lg-6.right{
+                            align-self: stretch;
+    
+                            .bg-image-wrapper{
+                                height: 100%;
+                                width: 100%;
+                                background-image: url(./middle.webp);
+                                background-position: center center;
+                                background-size: cover;
+    
+                                .text-wrapper{
+                                    text-align: center;
+                                    h2{
+                                        color: #82ae46;
+                                        font-weight: 600;
+                                    }
+                                    p{
+                                        font-size: 1.125rem;
+                                        padding: .725rem 0;
+                                    }
+                                    p.p1{
+                                        padding: .325rem .725rem;
+                                        display: inline-block;
+                                        background-color: #82ae46;
+                                        border: 1px solid #82ae46;
+                                        color: white;
+                                        border-radius: 5rem;
+                                        cursor: pointer;
+                                    }
+                                }
+                            }
+                            }
+                            
+                        }
+                        .col-lg-4.main-right{
+    
+                            .img-container{
+                                display: flex;
+                                align-items: flex-end;
+                                max-width: 100%;
+                                background-image: url(./greenjuice.webp);
+                                background-position: center;
+                                background-size: cover;
+                                height: 250px;
+        
+                                p{
+                                    color: white;
+                                    font-size: 1rem;
+                                    margin: 0;
+                                    padding: .125rem .725rem;
+                                    
+                                    background-color: #82ae46;
+                                }
+                            }
+                            .img-container3{
+                                display: flex;
+                                align-items: flex-end;
+                                max-width: 100%;
+                                background-image: url(./bot-right.webp);
+                                background-position: center;
+                                background-size: cover;
+                                height: 250px;
+        
+                                p{
+                                    color: white;
+                                    font-size: 1rem;
+                                    margin: 0;
+                                    padding: .125rem .725rem;
+                                    background-color: #82ae46;
+                                }
+                            }
+                        }
+                    }
+               } 
+              
            }
             
         }
