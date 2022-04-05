@@ -6,71 +6,71 @@
           box-sizing: border-box;
 }
 
-* body {
+body {
   font-family: 'Montserrat', sans-serif;
 }
 
-* body #navbar {
+#navbar {
   background-color: white !important;
 }
 
-* body #navbar a.navbar-brand {
+#navbar a.navbar-brand {
   font-weight: 600;
   font-size: 2.125rem;
 }
 
-* body #navbar a {
+#navbar a {
   color: black;
   font-size: 1.25rem;
 }
 
-* body #navbar .container-fluid > a {
+#navbar .container-fluid > a {
   padding-left: 12rem;
 }
 
-* body #navbar .ul-fix {
+#navbar .ul-fix {
   width: 64%;
   -ms-flex-pack: distribute;
       justify-content: space-around;
   padding-right: 5rem;
 }
 
-* body main .carousel-inner {
+main .carousel-inner {
   max-height: 90vh;
 }
 
-* body main .carousel-inner .carousel-caption {
+main .carousel-inner .carousel-caption {
   color: black;
   top: 20%;
   left: 20%;
 }
 
-* body main .carousel-inner .carousel-caption h2 {
+main .carousel-inner .carousel-caption h2 {
   font-size: 4rem;
   font-weight: 800;
   letter-spacing: 5px;
 }
 
-* body main .carousel-inner .carousel-caption p {
+main .carousel-inner .carousel-caption p {
   padding: 3rem 0;
   font-size: 1.725rem;
   letter-spacing: 5px;
   font-weight: 800;
 }
 
-* body main .row {
+main .row {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
 }
 
-* body main .row .card1 {
+main .row .card1 {
   position: relative;
   height: 240px;
   width: auto;
 }
 
-* body main .row .card1 .circle-img {
+main .row .card1 .circle-img {
   position: relative;
   top: 15%;
   left: 30%;
@@ -83,34 +83,34 @@
   margin-bottom: 1rem;
 }
 
-* body main .row .card1 .content {
+main .row .card1 .content {
   padding: 2rem 0;
   text-transform: uppercase;
 }
 
-* body main .row .card1 .content h2 {
+main .row .card1 .content h2 {
   padding: 1rem 0;
   font-size: 1.725rem;
 }
 
-* body main .row .card1 .content p {
+main .row .card1 .content p {
   font-size: 1.125rem;
 }
 
-* body main .row .card1:hover .circle-img {
+main .row .card1:hover .circle-img {
   background-color: #e4b2d6;
 }
 
-* body main #grid {
+main #grid {
   padding: 6rem 0;
 }
 
-* body main #grid .container-fluid {
+main #grid .container-fluid {
   height: 100%;
   width: 80%;
 }
 
-* body main #grid .container-fluid .row .col-lg-8.main-left .col-lg-6.left .img-container1 {
+main #grid .container-fluid .row .col-lg-8.main-left .col-lg-6.left .img-container1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -124,7 +124,7 @@
   height: 250px;
 }
 
-* body main #grid .container-fluid .row .col-lg-8.main-left .col-lg-6.left .img-container1 p {
+main #grid .container-fluid .row .col-lg-8.main-left .col-lg-6.left .img-container1 p {
   color: white;
   font-size: 1rem;
   margin: 0;
@@ -132,7 +132,7 @@
   background-color: #82ae46;
 }
 
-* body main #grid .container-fluid .row .col-lg-8.main-left .col-lg-6.left .img-container2 {
+main #grid .container-fluid .row .col-lg-8.main-left .col-lg-6.left .img-container2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -146,7 +146,7 @@
   height: 250px;
 }
 
-* body main #grid .container-fluid .row .col-lg-8.main-left .col-lg-6.left .img-container2 p {
+main #grid .container-fluid .row .col-lg-8.main-left .col-lg-6.left .img-container2 p {
   color: white;
   font-size: 1rem;
   margin: 0;
@@ -154,13 +154,13 @@
   background-color: #82ae46;
 }
 
-* body main #grid .container-fluid .row .col-lg-8.main-left .col-lg-6.right {
+main #grid .container-fluid .row .col-lg-8.main-left .col-lg-6.right {
   -ms-flex-item-align: stretch;
       -ms-grid-row-align: stretch;
       align-self: stretch;
 }
 
-* body main #grid .container-fluid .row .col-lg-8.main-left .col-lg-6.right .bg-image-wrapper {
+main #grid .container-fluid .row .col-lg-8.main-left .col-lg-6.right .bg-image-wrapper {
   height: 100%;
   width: 100%;
   background-image: url(./middle.webp);
@@ -168,22 +168,22 @@
   background-size: cover;
 }
 
-* body main #grid .container-fluid .row .col-lg-8.main-left .col-lg-6.right .bg-image-wrapper .text-wrapper {
+main #grid .container-fluid .row .col-lg-8.main-left .col-lg-6.right .bg-image-wrapper .text-wrapper {
   text-align: center;
 }
 
-* body main #grid .container-fluid .row .col-lg-8.main-left .col-lg-6.right .bg-image-wrapper .text-wrapper h2 {
+main #grid .container-fluid .row .col-lg-8.main-left .col-lg-6.right .bg-image-wrapper .text-wrapper h2 {
   color: #82ae46;
   font-weight: 600;
 }
 
-* body main #grid .container-fluid .row .col-lg-8.main-left .col-lg-6.right .bg-image-wrapper .text-wrapper p {
+main #grid .container-fluid .row .col-lg-8.main-left .col-lg-6.right .bg-image-wrapper .text-wrapper p {
   font-size: 1.125rem;
   padding: .725rem 0;
 }
 
-* body main #grid .container-fluid .row .col-lg-8.main-left .col-lg-6.right .bg-image-wrapper .text-wrapper p.p1 {
-  padding: .325rem .725rem;
+main #grid .container-fluid .row .col-lg-8.main-left .col-lg-6.right .bg-image-wrapper .text-wrapper p.p1 {
+  padding: .25rem .725rem;
   display: inline-block;
   background-color: #82ae46;
   border: 1px solid #82ae46;
@@ -192,7 +192,7 @@
   cursor: pointer;
 }
 
-* body main #grid .container-fluid .row .col-lg-4.main-right .img-container {
+main #grid .container-fluid .row .col-lg-4.main-right .img-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -206,7 +206,7 @@
   height: 250px;
 }
 
-* body main #grid .container-fluid .row .col-lg-4.main-right .img-container p {
+main #grid .container-fluid .row .col-lg-4.main-right .img-container p {
   color: white;
   font-size: 1rem;
   margin: 0;
@@ -214,7 +214,7 @@
   background-color: #82ae46;
 }
 
-* body main #grid .container-fluid .row .col-lg-4.main-right .img-container3 {
+main #grid .container-fluid .row .col-lg-4.main-right .img-container3 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -228,7 +228,7 @@
   height: 250px;
 }
 
-* body main #grid .container-fluid .row .col-lg-4.main-right .img-container3 p {
+main #grid .container-fluid .row .col-lg-4.main-right .img-container3 p {
   color: white;
   font-size: 1rem;
   margin: 0;
