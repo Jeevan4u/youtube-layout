@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    body{
+      
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+        font-family: 'Montserrat', sans-serif;
+        
+        #navbar{
+            background-color: white !important;
+
+            a.navbar-brand{
+                font-weight: 600;
+                font-size: 2.125rem;
+            }
+            a{
+                color: black;
+                font-size: 1.25rem;
+            }
+
+            .container-fluid>a{
+                padding-left: 12rem;
+
+            }
+
+            .ul-fix{
+                width: 64%;
+                justify-content: space-around;
+                padding-right: 5rem;
+            }
+
+
+        }
+
+        main{
+            .carousel-inner{
+                max-height: 90vh;
+
+                .carousel-caption {
+
+                    color: black;
+                    top: 20%;
+                    left: 20%;
+
+                    h2{
+                        font-size: 4rem;
+                        font-weight: 800;
+                        letter-spacing: 5px;
+                    }
+
+                    p{
+                        padding: 3rem 0;
+                        font-size: 1.725rem;
+                        letter-spacing: 5px;
+                        font-weight: 800;
+                    }
+                }
+            }
+           .row{
+               align-items: flex-end;
+
+                .card1{
+                
+                    position: relative;
+                    height: 240px;
+                    width: auto;
+    
+                    .circle-img{
+                        position: relative;
+                        top: 15%;
+                        left: 30%;
+                        height: 100px;
+                        width: 100px;
+                        clip-path: circle();
+                        
+                    }   
+                    .content{
+                        padding-top: 4rem;
+                        text-transform: uppercase;
+
+                        h2{
+                           font-size: 1.725rem;
+                        }
+                        p{
+                            font-size: 1.125rem;
+                        }
+                    }
+                }
+           }
+            
+        }
+    }
+    
+}
