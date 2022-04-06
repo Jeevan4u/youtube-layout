@@ -235,4 +235,104 @@ main #grid .container-fluid .row .col-lg-4.main-right .img-container3 p {
   padding: .125rem .725rem;
   background-color: #82ae46;
 }
+
+main #products .card-cont {
+  margin: 1rem 0;
+  border: 2px solid lightgray;
+  position: relative;
+}
+
+main #products .card-cont span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #82ae46;
+  padding: .325rem;
+}
+
+main #products .card-cont .product-img img {
+  -webkit-transform: scale(0.725);
+          transform: scale(0.725);
+  max-width: 100%;
+  max-height: 100%;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+}
+
+main #products .card-cont .card-contents {
+  position: relative;
+  padding: 0.5rem 3rem;
+}
+
+main #products .card-cont .card-contents h2 {
+  padding-left: 3.325rem;
+  padding-bottom: 1rem;
+  font-size: 1.125rem;
+  letter-spacing: 1px;
+}
+
+main #products .card-cont .card-contents p {
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  display: inline-block;
+  letter-spacing: 2px;
+  margin-left: 1rem;
+}
+
+main #products .card-cont .card-contents p.cancle {
+  font-weight: 500;
+  color: lightgray;
+  font-size: 1rem;
+  text-decoration: line-through;
+}
+
+main #products .card-cont .card-contents p.real {
+  color: #82ae46;
+  padding-left: .525rem;
+}
+
+main #products .card-cont .hidden-content {
+  position: absolute;
+  top: 82%;
+  left: 4rem;
+  display: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+main #products .card-cont .hidden-content div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 50px;
+  width: 50px;
+  -webkit-clip-path: circle();
+          clip-path: circle();
+  background-color: #82ae46;
+  cursor: pointer;
+}
+
+main #products .card-cont:hover .product-img img {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+main #products .card-cont:hover .hidden-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main #products .card-cont:hover .card-contents p {
+  opacity: 0;
+}
 /*# sourceMappingURL=new.css.map */

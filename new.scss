@@ -221,6 +221,99 @@
                } 
               
            }
+
+           #products{
+    
+               .card-cont{
+                   margin: 1rem 0;
+                   border: 2px solid lightgray;
+                   position: relative;
+
+                   span{
+                       position: absolute;
+                       top: 0;
+                       left: 0;
+                       background-color: #82ae46;
+                       padding: .325rem;
+                   }
+                   .product-img img{
+                       transform: scale(.725);
+                       max-width: 100%;
+                       max-height: 100%;
+                       transition: .5s ease;
+                   }
+                   .card-contents{
+                       position: relative;
+                        padding: 0.5rem 3rem;
+                        
+                        h2{
+                            padding-left: 3.325rem;
+                            padding-bottom: 1rem;
+                            font-size: 1.125rem;
+                            letter-spacing: 1px;
+                        }
+                        p{
+                            transition: .5s ease-in-out;
+                            display: inline-block;
+                            letter-spacing: 2px;
+                            margin-left: 1rem;
+                        }
+                        p.cancle{
+                            font-weight: 500;
+                            color: lightgray;
+                            font-size: 1rem;
+                            text-decoration: line-through;
+                        }
+                        p.real{
+                            color: #82ae46;
+                            padding-left: .525rem;
+                        }
+                        
+                   }
+
+                   .hidden-content{
+
+                        position: absolute;
+                        top: 82%;
+                        left: 4rem;
+                        // display: flex;
+                        display: none;
+                        justify-content: center;
+                        align-content: center;
+
+                            div{
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                height: 50px;
+                                width: 50px;
+                                clip-path: circle();
+                                background-color:#82ae46 ;
+                                cursor: pointer;
+                                
+                            }
+                    }
+
+
+                   &:hover{
+                       .product-img img{
+                            transform: scale(1);
+                       }
+                      .hidden-content{
+                          display: flex;
+                      }
+                      .card-contents{
+                          p{
+                            opacity: 0;
+                          }
+                         
+                      }
+                      
+                   }
+                   
+               }
+
+           }
             
         }
    
