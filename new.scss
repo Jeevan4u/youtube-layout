@@ -13,11 +13,11 @@
 
             a.navbar-brand{
                 font-weight: 600;
-                font-size: 2.125rem;
+                font-size: 2rem;
             }
             a{
                 color: black;
-                font-size: 1.25rem;
+                font-size: 1.125rem;
             }
 
             .container-fluid>a{
@@ -223,7 +223,23 @@
            }
 
            #products{
-    
+                .products-content {
+                    p.fp{
+                        color: #82ae46;
+                        font-family: cursive;
+                        font-size: 1.325rem;
+                    }
+                    h1{
+                        font-size: 2.225rem;
+                        font-weight: 800;
+                      
+                    }
+                    p.last{
+                        font: 1em sans-serif;
+                        color: lightgray;
+                        letter-spacing: 2px;
+                    }
+                }
                .card-cont{
                    margin: 1rem 0;
                    border: 2px solid lightgray;
@@ -313,6 +329,76 @@
                    
                }
 
+           }
+
+           #DoD{
+               .container-fluid{
+                //    height: 100vh;
+                   margin: 4rem 0;
+                   background-image: url(./DoDbg.webp);
+                   background-size: cover;
+                   background-attachment: fixed;
+                   background-position: center center;
+
+                   .contentDod{
+                       padding: 5rem;
+                       span{
+                           font-weight: 600;
+                           font-size: 1.125rem;
+                           color: #82ae46;
+                       }
+                       h1.anim{
+                           cursor: pointer;
+                           position: relative;
+                           margin: 2rem 0;
+                           font-size: 2.725rem;
+                           font-weight: 800;
+                           
+
+                           &::after{
+                               position: absolute;
+                               content: '';
+                               height: 5px;
+                               width: 5%;
+                               bottom: -10px;
+                               left: 0;
+                               
+                               background-color: #82ae46;
+                               transition: all 1s cubic-bezier(1,-0.4,.13,1.15);
+                               //dont know what the fuck this does just trying out things
+                               transform-origin: center;
+                               transform: translateX(0%);
+                               
+
+                           }
+
+                           &:hover::after{
+                                
+                                width: 40%;
+                                transform: translateX(50%);
+                           }
+                       }
+                       p{
+                           font-size: 1.125rem;
+                           font-weight: 500;
+                           color: darkgray;
+                       }
+                       p>a{
+                           text-decoration: none;
+                       }
+                       p a span{
+                           font-size: 3rem;
+                           color: rgba(161, 141, 141, 0.633);
+                           font-weight: 800;
+                           text-shadow: 2px 2px #58f3ada5;
+                      
+                       }
+                    
+                   }
+               }
+           }
+           #testomonial{
+               
            }
             
         }

@@ -16,12 +16,12 @@ body {
 
 #navbar a.navbar-brand {
   font-weight: 600;
-  font-size: 2.125rem;
+  font-size: 2rem;
 }
 
 #navbar a {
   color: black;
-  font-size: 1.25rem;
+  font-size: 1.125rem;
 }
 
 #navbar .container-fluid > a {
@@ -236,6 +236,23 @@ main #grid .container-fluid .row .col-lg-4.main-right .img-container3 p {
   background-color: #82ae46;
 }
 
+main #products .products-content p.fp {
+  color: #82ae46;
+  font-family: cursive;
+  font-size: 1.325rem;
+}
+
+main #products .products-content h1 {
+  font-size: 2.225rem;
+  font-weight: 800;
+}
+
+main #products .products-content p.last {
+  font: 1em sans-serif;
+  color: lightgray;
+  letter-spacing: 2px;
+}
+
 main #products .card-cont {
   margin: 1rem 0;
   border: 2px solid lightgray;
@@ -334,5 +351,70 @@ main #products .card-cont:hover .hidden-content {
 
 main #products .card-cont:hover .card-contents p {
   opacity: 0;
+}
+
+main #DoD .container-fluid {
+  margin: 4rem 0;
+  background-image: url(./DoDbg.webp);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+}
+
+main #DoD .container-fluid .contentDod {
+  padding: 5rem;
+}
+
+main #DoD .container-fluid .contentDod span {
+  font-weight: 600;
+  font-size: 1.125rem;
+  color: #82ae46;
+}
+
+main #DoD .container-fluid .contentDod h1.anim {
+  cursor: pointer;
+  position: relative;
+  margin: 2rem 0;
+  font-size: 2.725rem;
+  font-weight: 800;
+}
+
+main #DoD .container-fluid .contentDod h1.anim::after {
+  position: absolute;
+  content: '';
+  height: 5px;
+  width: 5%;
+  bottom: -10px;
+  left: 0;
+  background-color: #82ae46;
+  -webkit-transition: all 1s cubic-bezier(1, -0.4, 0.13, 1.15);
+  transition: all 1s cubic-bezier(1, -0.4, 0.13, 1.15);
+  -webkit-transform-origin: center;
+          transform-origin: center;
+  -webkit-transform: translateX(0%);
+          transform: translateX(0%);
+}
+
+main #DoD .container-fluid .contentDod h1.anim:hover::after {
+  width: 40%;
+  -webkit-transform: translateX(50%);
+          transform: translateX(50%);
+}
+
+main #DoD .container-fluid .contentDod p {
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: darkgray;
+}
+
+main #DoD .container-fluid .contentDod p > a {
+  text-decoration: none;
+}
+
+main #DoD .container-fluid .contentDod p a span {
+  font-size: 3rem;
+  color: rgba(161, 141, 141, 0.633);
+  font-weight: 800;
+  text-shadow: 2px 2px #58f3ada5;
 }
 /*# sourceMappingURL=new.css.map */
