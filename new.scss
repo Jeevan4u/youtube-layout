@@ -1,3 +1,8 @@
+:root {
+    --animate-duration: 1700ms;
+    --animate-delay: 1s;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -516,6 +521,27 @@
         }
 
         #final{
+            position: relative;
+            .cricle{
+                cursor: pointer;
+                position: absolute;
+                top: -25px;
+                left: 47vw;
+                height: 70px;
+                width: 100px;
+                clip-path: circle();
+                background-color: #82ae46;
+
+                i{
+                    position: absolute;
+                     top: 10%;
+                     left: 36%;
+                    // padding-top: 2rem ;
+                    // padding-left: 37px;
+                    font-size: 2.25rem;
+                    color: white;
+                }
+            }
             .container-fluid{
                 text-align: center;
                 padding-left: 7rem;
@@ -547,6 +573,11 @@
                     justify-content: space-between;
                     flex-wrap: wrap;
                     padding: 0;
+
+                    a{
+                        text-decoration: none;
+                        color: black;
+                    }
                     
                     li{
                         font-size: 1.125rem;

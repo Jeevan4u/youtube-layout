@@ -1,4 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap");
+:root {
+  --animate-duration: 1700ms;
+  --animate-delay: 1s;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -552,7 +557,28 @@ main #suscribe .all-contents .right-c .rel-cont button[type="submit"] {
 }
 
 #final {
+  position: relative;
   padding: 7em 0;
+}
+
+#final .cricle {
+  cursor: pointer;
+  position: absolute;
+  top: -25px;
+  left: 47vw;
+  height: 70px;
+  width: 100px;
+  -webkit-clip-path: circle();
+          clip-path: circle();
+  background-color: #82ae46;
+}
+
+#final .cricle i {
+  position: absolute;
+  top: 10%;
+  left: 36%;
+  font-size: 2.25rem;
+  color: white;
 }
 
 #final .container-fluid {
@@ -592,6 +618,11 @@ main #suscribe .all-contents .right-c .rel-cont button[type="submit"] {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   padding: 0;
+}
+
+#final .hellow .new a {
+  text-decoration: none;
+  color: black;
 }
 
 #final .hellow .new li {
