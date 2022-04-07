@@ -467,4 +467,86 @@ main #logos .container .contn .log {
 main #logos .container .contn .log img {
   max-width: 100%;
 }
+
+main #suscribe {
+  background-color: #f7f6f2;
+}
+
+main #suscribe .all-contents {
+  padding: 3rem 0;
+}
+
+main #suscribe .all-contents .left-c {
+  text-align: left;
+}
+
+main #suscribe .all-contents .left-c h2 {
+  font-size: 1.725rem;
+  padding: 1rem 0;
+}
+
+main #suscribe .all-contents .left-c p {
+  font-size: 1.125rem;
+  color: gray;
+}
+
+main #suscribe .all-contents .right-c {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+main #suscribe .all-contents .right-c .rel-cont {
+  position: relative;
+}
+
+main #suscribe .all-contents .right-c .rel-cont input[type="email"] {
+  text-align: center;
+  width: 70%;
+  height: 50px;
+  border: none;
+}
+
+main #suscribe .all-contents .right-c .rel-cont input[type="email"]::-webkit-input-placeholder {
+  text-align: left;
+  font-weight: 500;
+  color: black;
+}
+
+main #suscribe .all-contents .right-c .rel-cont input[type="email"]:-ms-input-placeholder {
+  text-align: left;
+  font-weight: 500;
+  color: black;
+}
+
+main #suscribe .all-contents .right-c .rel-cont input[type="email"]::-ms-input-placeholder {
+  text-align: left;
+  font-weight: 500;
+  color: black;
+}
+
+main #suscribe .all-contents .right-c .rel-cont input[type="email"]::placeholder {
+  text-align: left;
+  font-weight: 500;
+  color: black;
+}
+
+main #suscribe .all-contents .right-c .rel-cont input[type="email"]:focus {
+  outline: none;
+}
+
+main #suscribe .all-contents .right-c .rel-cont button[type="submit"] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+  font-weight: 500;
+  color: white;
+  padding: 0 1rem;
+  height: 50px;
+  border: none;
+  background-color: #82ae46;
+  -webkit-transform: translateX(-10rem);
+          transform: translateX(-10rem);
+}
 /*# sourceMappingURL=new.css.map */
