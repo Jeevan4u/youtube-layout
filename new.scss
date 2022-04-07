@@ -398,9 +398,61 @@
                }
            }
            #testomonial{
+               .container-fluid{
+                    margin: 3rem 0;
+                    
+                    .test-content{
+                        span{
+                            font-size: 1.325rem;
+                            font-weight: 600;
+                            color: #82ae46;
+                        }
+                        h1{
+                            font-size: 2.225rem;
+                            font-weight: 800;
+                            padding: 1rem 0;
+                        }
+                        p{  
+                            color: darkgray;
+                            font-weight: 500;
+                            font-size: 1.125rem;
+                            width: 100%;
+                            padding: 0 5rem;
+                        }
+                    }
+               }
                
+
+              
            }
+           #logos{
+            padding: 3rem 0;
+               .container{
+                   display: flex;
+                    width: 100%;
+                    justify-content: space-around;
+                   .contn{
+                    
+                    width: 100%;
+                    height: 100%;
+    
+                    .log{
+                    
+                        padding: 0 2rem;
+        
+                        img{
+                            max-width: 100%;
+                        }
+                    }
+    
+                }
+                  
+               }
+           
+
             
+
+           }
         }
    
     

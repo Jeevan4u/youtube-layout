@@ -1,0 +1,52 @@
+
+.card{
+    /* background-color: red; */
+    position: relative;
+    border: none;
+}
+.card .img-container{
+    position: relative;
+    top: 2rem;
+    left: 10.5rem;
+    height: 100px;
+    width: 100px;
+    background-color: aliceblue;
+    /* background-image: url(./xperson_2.jpg.pagespeed.ic.Xrdu_nPZRp.webp); */
+    background-repeat: no-repeat;
+    background-position: center center;
+    clip-path: circle();
+}
+.contents{
+    position: relative;
+    border-left: 1px solid black;
+    position: relative;
+    top: 1rem;
+    padding: 3rem 1rem;
+    font-size: 1.225rem;
+    letter-spacing: 2px;
+    margin-left: 1rem;
+}
+.contents::after{
+    position: absolute;
+    top: 150px;
+    left: -2.5px;
+    height: 80px;
+    width: 5px;
+    background-color: #82ae46;
+    content: '';
+
+    
+}
+.contents p{
+    padding-left: 2rem;
+}
+.contents h2{
+     font-size: 1.325rem;
+     text-align: center;
+       padding-top: 3rem;
+ }
+
+.contents h2 p{
+    font-size: 1rem;
+    font-weight: 400;
+}

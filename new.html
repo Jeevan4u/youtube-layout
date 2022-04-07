@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+       .card{
+           /* background-color: red; */
+           position: relative;
+       }
+       .card .img-container{
+           position: relative;
+           top: 2rem;
+           left: 15rem;
+           height: 100px;
+           width: 100px;
+           background-color: aliceblue;
+           background-image: url(./icons8-naruto.svg);
+           background-repeat: no-repeat;
+           background-position: center center;
+           clip-path: circle();
+       }
+       .contents{
+           position: relative;
+           border-left: 1px solid black;
+           position: relative;
+           top: 2rem;
+           padding: 3rem 5rem;
+           font-size: 1.225rem;
+           letter-spacing: 2px;
+           margin-left: 4rem;
+       }
+       .contents::after{
+           position: absolute;
+           top: 50px;
+           left: -2.5px;
+           height: 50px;
+           width: 5px;
+           background-color: aqua;
+           content: '';
+      
+           
+       }
+       .contents h2{
+            font-size: 1.325rem;
+            text-align: center;
+              padding-top: 3rem;
+        }
+       
+       .contents h2 p{
+           font-size: 1rem;
+           font-weight: 400;
+       }
+      
+    </style>
+  </head>
+
+<body>
+
+    <div class="owl-carousel owl-theme">
+        <div class="item">
+            <div class="card">
+                <div class="img-container"></div>
+                <div class="contents">
+                    <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. </p>
+                    <h2 >Garen Smith
+                        <p>Interface Designer</p>
+                    </h2>
+                </div>
+
+
+            </div>
+        </div>
+       
+    </div>
+   
+
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script>
+    $('.owl-carousel').owlCarousel({
+        loop:true,
+        autoplay: true,
+        autoplayTimeout:3000,
+        margin:10,
+        nav:true,
+        slideBy:3,
+        animateIn: 'fadeIn',
+        animateOut: 'fadeOut',
+             
+    })
+</script>
+  
+</html>

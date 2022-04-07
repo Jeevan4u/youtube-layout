@@ -417,4 +417,54 @@ main #DoD .container-fluid .contentDod p a span {
   font-weight: 800;
   text-shadow: 2px 2px #58f3ada5;
 }
+
+main #testomonial .container-fluid {
+  margin: 3rem 0;
+}
+
+main #testomonial .container-fluid .test-content span {
+  font-size: 1.325rem;
+  font-weight: 600;
+  color: #82ae46;
+}
+
+main #testomonial .container-fluid .test-content h1 {
+  font-size: 2.225rem;
+  font-weight: 800;
+  padding: 1rem 0;
+}
+
+main #testomonial .container-fluid .test-content p {
+  color: darkgray;
+  font-weight: 500;
+  font-size: 1.125rem;
+  width: 100%;
+  padding: 0 5rem;
+}
+
+main #logos {
+  padding: 3rem 0;
+}
+
+main #logos .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+main #logos .container .contn {
+  width: 100%;
+  height: 100%;
+}
+
+main #logos .container .contn .log {
+  padding: 0 2rem;
+}
+
+main #logos .container .contn .log img {
+  max-width: 100%;
+}
 /*# sourceMappingURL=new.css.map */
