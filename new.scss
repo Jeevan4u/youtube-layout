@@ -514,5 +514,48 @@
                }
            }
         }
+
+        #final{
+            .container-fluid{
+                text-align: center;
+                padding-left: 7rem;
+            }
+            padding: 7em 0;
+           
+
+            .hellow{
+                // background-color: cadetblue;
+                margin: 4rem 0;
+
+                h2{
+                    
+                    color: #82ae46;
+                    font-size: 1.725rem;
+                    padding-bottom: 2rem;
+                }
+                p{  
+                    padding: 1rem 1rem;
+                    font-weight: 500;
+                    font-size: 1.125rem;
+                }
+
+                .new{
+                    display: flex;
+                    flex-direction: column;
+                    height: 100%;
+                    width: 100%;
+                    justify-content: space-between;
+                    flex-wrap: wrap;
+                    padding: 0;
+                    
+                    li{
+                        font-size: 1.125rem;
+                        font-weight: 500;
+                        list-style: none;
+                        text-align: center;
+                    }
+                }
+            }
+        }
    
     

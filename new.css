@@ -8,6 +8,7 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
 }
 
 #navbar {
@@ -548,5 +549,55 @@ main #suscribe .all-contents .right-c .rel-cont button[type="submit"] {
   background-color: #82ae46;
   -webkit-transform: translateX(-10rem);
           transform: translateX(-10rem);
+}
+
+#final {
+  padding: 7em 0;
+}
+
+#final .container-fluid {
+  text-align: center;
+  padding-left: 7rem;
+}
+
+#final .hellow {
+  margin: 4rem 0;
+}
+
+#final .hellow h2 {
+  color: #82ae46;
+  font-size: 1.725rem;
+  padding-bottom: 2rem;
+}
+
+#final .hellow p {
+  padding: 1rem 1rem;
+  font-weight: 500;
+  font-size: 1.125rem;
+}
+
+#final .hellow .new {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 0;
+}
+
+#final .hellow .new li {
+  font-size: 1.125rem;
+  font-weight: 500;
+  list-style: none;
+  text-align: center;
 }
 /*# sourceMappingURL=new.css.map */
