@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Poppins:wght@300;400;600;700&display=swap");
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+#p1-product {
+  color: white;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(/p1-product/jumbo.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/p1-product/jumbo.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+#p1-product .contents {
+  text-align: center;
+  margin-top: 5rem;
+  padding: 200px 0;
+}
+
+#p1-product .contents h1 {
+  margin-top: 2rem;
+  font-size: 800;
+  font-size: 5.725rem;
+  letter-spacing: 5px;
+}
+
+#p1-product .contents nav ol {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#p1-product .contents nav ol .breadcrumb-item + .breadcrumb-item::before {
+  color: white;
+  padding: 0 0.725rem;
+}
+
+#p1-product .contents nav ol li {
+  padding: 2rem 0;
+  font-size: 2.125rem;
+  color: white;
+}
+
+#p1-product .contents nav ol li a {
+  text-decoration: none;
+  color: white;
+}
+
+#p1-product .contents nav ol li.default a {
+  position: relative;
+  z-index: 9999;
+}
+
+#p1-product .contents nav ol li.default a::after {
+  position: absolute;
+  content: '';
+  width: 30%;
+  height: 5px;
+  bottom: 0;
+  left: -5px;
+  background-color: #83ae46c1;
+  -webkit-transition: all 1s cubic-bezier(0.61, 0.18, 0, 1.1);
+  transition: all 1s cubic-bezier(0.61, 0.18, 0, 1.1);
+  z-index: -1;
+}
+
+#p1-product .contents nav ol li.default a:hover::after {
+  height: 100%;
+  width: 110%;
+  -webkit-transform-origin: bottom left;
+          transform-origin: bottom left;
+}
+/*# sourceMappingURL=product.css.map */

@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Poppins:wght@300;400;600;700&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+#p1-product{
+    color: white;
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),
+    url(/p1-product/jumbo.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+
+    // height: 60vh;
+
+    .contents{
+        text-align: center;
+        margin-top: 5rem;
+        padding: 200px 0;
+
+        h1{
+            // padding: 2rem 0
+            margin-top: 2rem;
+            font-size: 800;
+            font-size: 5.725rem;
+            letter-spacing: 5px;
+        }
+        nav{
+          ol{
+              display: flex;
+              justify-content: center;
+              
+              .breadcrumb-item+.breadcrumb-item::before {
+                  color: white;
+                  padding: 0 0.725rem;
+              }
+
+              li{
+                  padding: 2rem 0;
+                  font-size: 2.125rem;
+                  color: white;
+
+                  a{
+                      text-decoration: none;
+                      color: white;
+                  }
+              }
+
+              li.default{
+
+                    a{
+                        
+                        position: relative;
+                        z-index: 9999;
+
+                        &::after{
+                            position: absolute;
+                            content: '';
+                            width: 30%;
+                            height: 5px;
+                            bottom: 0;
+                            left:-5px;
+                            background-color: #83ae46c1 ;
+                            transition: all 1s cubic-bezier(.61,.18,0,1.1);
+                            //dont know what the fuck this does just trying out things
+                            // transform-origin: center;
+                            // transform: translateX(0%);
+                            z-index: -1;
+                        }
+
+                        &:hover::after{
+                            
+                            height: 100%;
+                            width: 110%;
+                            transform-origin: bottom left;
+                            // transform: translateX(50%);
+                           
+                       }
+                    }
+                }
+                
+          }
+        }
+    }
+}
